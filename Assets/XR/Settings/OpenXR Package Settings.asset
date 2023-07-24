@@ -584,7 +584,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f0ebc320a151d3408ea1e9fce54d40e, type: 3}
   m_Name: OpenXR Package Settings
   m_EditorClassIdentifier: 
-  Keys: 0100000004000000070000000e0000000d0000001300000021000000
+  Keys: 0100000004000000070000000e0000000d000000130000002100000024000000
   Values:
   - {fileID: 7074381513550808851}
   - {fileID: -2527132876349157496}
@@ -593,6 +593,7 @@ MonoBehaviour:
   - {fileID: -2741020025410619354}
   - {fileID: -6306174841223016725}
   - {fileID: -1419180645209072826}
+  - {fileID: 3023510380449015880}
 --- !u!114 &250521752354971271
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -795,6 +796,21 @@ MonoBehaviour:
   company: Unity
   priority: 0
   required: 0
+--- !u!114 &3023510380449015880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5a1f07dc5afe854f9f12a4194aca3fb, type: 3}
+  m_Name: VisionOS
+  m_EditorClassIdentifier: 
+  features: []
+  m_renderMode: 1
+  m_depthSubmissionMode: 0
 --- !u!114 &3556234930305606772
 MonoBehaviour:
   m_ObjectHideFlags: 0
